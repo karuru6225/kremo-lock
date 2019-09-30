@@ -10,10 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@abandonware/noble": "^1.9.2-5",
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
     "@babel/register": "^7.6.0",
+    "bleacon-fork": "0.0.6",
     "raspi": "^6.0.1",
+    "raspi-gpio": "^6.2.1",
     "raspi-pwm": "^6.0.0"
   }
 }

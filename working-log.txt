@@ -1,0 +1,9 @@
+systemctl stop pigpiod
+systemctl disable pigpiod
+apt install bluetooth bluez libbluetooth-dev libudev-dev
+apt install bluetooth bluez libbluetooth-dev libudev-dev
+apt install pi-bluetooth
+systemctl enable bluetooth
+systemctl start bluetooth
+systemctl start hciuart
+systemctl enable hciuart
